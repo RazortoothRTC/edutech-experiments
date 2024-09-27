@@ -17,6 +17,7 @@ This uses a Plack based framework.  TODO: Add some details
 ## Software
 
 - https://metacpan.org/pod/Tatsumaki
+- https://github.com/miyagawa/Tatsumaki
 - Perl 5
 - cpanm
 - install tatsumaki into root.  Note, this did not install on a mac with apple silicon, so stick with a linux (arch or ubuntu)
