@@ -284,8 +284,7 @@ my $server = HTTP::Server::PSGI->new(
         port => 5001,
         timeout => 120,
 );
-my $app2 = Plack::App::Directory->new({ root => "./contentrepo" })-
- >to_app;
+my $app2 = Plack::App::Directory->new({ root => "./contentrepo" })->to_app;
 
 
 if (__FILE__ eq $0) {

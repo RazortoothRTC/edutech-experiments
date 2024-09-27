@@ -19,12 +19,18 @@ This uses a Plack based framework.  TODO: Add some details
 - https://metacpan.org/pod/Tatsumaki
 - Perl 5
 - cpanm
-
+- install tatsumaki into root.  Note, this did not install on a mac with apple silicon, so stick with a linux (arch or ubuntu)
 
 ## Development
 
-TODO
+TODO: locate missing code and content
+
+- /templates
+- /static
+- /contentrepo
 
 ## Running
 
-TODO
+- launch: perl app.psgi
+- from a service, use plackup (TODO: document how)
+- from a browser: http://localhost:5000/class/foo (where foo is any ascii string) to join a classroom
