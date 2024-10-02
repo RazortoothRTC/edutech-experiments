@@ -35,3 +35,8 @@ TODO: locate missing code and content
 - launch: perl app.psgi
 - from a service, use plackup (TODO: document how)
 - from a browser: http://localhost:5000/class/foo (where foo is any ascii string) to join a classroom
+
+## History
+
+- Original version was authored around 2010
+- This was updated on 2024 to make it released under open source
